@@ -1,0 +1,52 @@
+.site-header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.sitenav {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__sitenav {
+  margin-left: auto;
+  padding-left: 30px;
+}
+
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  margin-right: 48px;
+  padding: 0;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 44px;
+}
+
+.sitenav__link {
+  text-transform: uppercase;
+  color: var(--black);
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  transition: color 0.3s ease,
+              opacity 0.3s ease;
+}
+
+.sitenav__link:hover {
+  color: var(--red);
+}
+
+.sitenav__link:active {
+  opacity: 0.6;
+}
