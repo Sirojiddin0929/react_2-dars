@@ -195,7 +195,7 @@ const Main = () => {
                     <div className="tab-panels__tab-panel-content">
                       <h3 className="tab-panels__tab-panel-content-title">{tab.heading}</h3>
                       <p className="tab-panels__tab-panel-content-description">{tab.description}</p>
-                      <a className="button button--blue" href="#">
+                      <a className="button button--blue" href="#0">
                         More info
                       </a>
                     </div>
@@ -281,7 +281,7 @@ const Main = () => {
               );
             })}
           </div>
-          <a className="button button--blue" href="#">
+          <a className="button button--blue" href="#0">
             More info
           </a>
         </div>

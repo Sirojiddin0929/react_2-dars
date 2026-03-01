@@ -16,17 +16,17 @@ const Footer = () => (
       <nav className="site-footer__sitenav sitenav" aria-label="Secondary navigation">
         <ul className="sitenav__list">
           <li className="sitenav__item">
-            <a className="sitenav__link sitenav__link--footer" href="#">
+            <a className="sitenav__link sitenav__link--footer" href="#features">
               Features
             </a>
           </li>
           <li className="sitenav__item">
-            <a className="sitenav__link sitenav__link--footer" href="#">
+            <a className="sitenav__link sitenav__link--footer" href="#extension">
               Pricing
             </a>
           </li>
           <li className="sitenav__item">
-            <a className="sitenav__link sitenav__link--footer" href="#">
+            <a className="sitenav__link sitenav__link--footer" href="#contact">
               Contact
             </a>
           </li>
@@ -35,7 +35,7 @@ const Footer = () => (
 
       <ul className="site-footer__social-list">
         <li className="site-footer__social-item">
-          <a className="site-footer__social-link" href="#" aria-label="Facebook">
+          <a className="site-footer__social-link" href="#0" aria-label="Facebook">
             <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fillRule="evenodd"
@@ -47,7 +47,7 @@ const Footer = () => (
           </a>
         </li>
         <li className="site-footer__social-item">
-          <a className="site-footer__social-link" href="#" aria-label="Twitter">
+          <a className="site-footer__social-link" href="#0" aria-label="Twitter">
             <svg width="24" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fillRule="evenodd"

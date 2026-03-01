@@ -16,23 +16,23 @@ const Header = () => (
       <nav className="site-header__sitenav sitenav" aria-label="Primary navigation">
         <ul className="sitenav__list">
           <li className="sitenav__item">
-            <a className="sitenav__link" href="#">
+            <a className="sitenav__link" href="#features">
               Features
             </a>
           </li>
           <li className="sitenav__item">
-            <a className="sitenav__link" href="#">
+            <a className="sitenav__link" href="#extension">
               Pricing
             </a>
           </li>
           <li className="sitenav__item">
-            <a className="sitenav__link" href="#">
+            <a className="sitenav__link" href="#contact">
               Contact
             </a>
           </li>
         </ul>
 
-        <a className="button button--red" href="#">
+        <a className="button button--red" href="#0">
           Login
         </a>
       </nav>
